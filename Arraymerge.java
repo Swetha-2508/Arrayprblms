@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arraymerge
+public class Arraymerge
 {
     public static void main(String args[])
     {
