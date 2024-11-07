@@ -1,4 +1,4 @@
-class arraytwod
+class Arraytwod
 {
   public static void main(String args[])
   {
