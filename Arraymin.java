@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class arraymin
+class Arraymin
 {
   static void min(int arr[])
   {  
