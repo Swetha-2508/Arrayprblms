@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class arrayminmax
+class Arrayminmax
 {
   public static void main(String args[])
   {
