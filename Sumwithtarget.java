@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Sumwithtarget {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -12,8 +13,16 @@ class Sumwithtarget {
     }
     public static void main(String[] args) {
         Sumwithtarget solution = new Sumwithtarget();
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
+        int size = sc.nextInt();
+        int[] nums = new int[size];
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < size; i++) {
+            nums[i] = sc.nextInt();
+        }
+        System.out.print("Enter the target value: ");
+        int target=sc.nextInt();
         int[] result = solution.twoSum(nums, target);
         if (result != null) {
             System.out.println("Indices of the two numbers that add up to " + target + ": [" + result[0] + ", " + result[1] + "]");
