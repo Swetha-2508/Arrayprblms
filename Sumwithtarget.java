@@ -5,7 +5,7 @@ class Sumwithtarget {
             for (int j = i + 1; j < nums.length; j++) {
                 int total = nums[i] + nums[j];
                 if (total == target) {
-                    return new int[]{i, j};
+                    return new int[]{i, j};  //return new int[]{nums[i], nums[j]}; Return the actual values
                 }
             }
         }
